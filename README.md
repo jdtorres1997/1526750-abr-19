@@ -6,5 +6,5 @@ Juan David Torres
 -Este es el ejercicio numero 1
 
 ``
-ps -A | wc -l
+export VAR1 = $(($( ps -A | wc -l) -1)) | echo $VAR1
 ``
